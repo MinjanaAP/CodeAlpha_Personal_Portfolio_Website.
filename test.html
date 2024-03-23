@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scroll Animation Example</title>
+<style>
+  /* Style for the elements to be animated */
+  .animated-element {
+    opacity: 0; /* Start with opacity 0 to make them invisible */
+    transform: translateY(20px); /* Start slightly below */
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  /* Define the animation */
+  .fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
+</head>
+<body>
+
+<div id="content">
+  <!-- Content that appears initially -->
+  <h1>Welcome to My Website</h1>
+  <p>Scroll down to see more content</p>
+</div>
+
+<div class="animated-element" id="hiddenContent">
+  <!-- Additional content that appears when scrolling down -->
+  <h2>More Content</h2>
+  <p>This content appears with a fade-in effect as you scroll down</p>
+</div>
+
+<script src="script.js">
+  // Function to handle scroll event
+
+</script>
+
+</body>
+</html>
