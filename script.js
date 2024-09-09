@@ -18,3 +18,6 @@ function isMiddleInViewport(element) {
   // Add scroll event listener
   window.addEventListener('scroll', handleScroll);
   
+  function navigateToContacts(){
+    window.location.href = 'contact.html';
+  }

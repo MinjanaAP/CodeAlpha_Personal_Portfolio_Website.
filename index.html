@@ -14,9 +14,13 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
+            <a class="lead d-md-none ms-3" href="#">
+                <img src="assets/images/logo pp.png" alt="logo" width="40" height="40" class="d-inline-block align-center d-md-none" loading="lazy">
+                Pasan Athuluwage
+            </a>
             <a class="navbar-brand" href="#">
-                <!-- <img src="assets/images/logo.png" alt="logo" width="80" height="80" class="d-inline-block align-top" loading="lazy"> -->
-                <a class="lead d-none d-md-flex" href="#">
+                <img src="assets/images/logo pp.png" alt="logo" width="40" height="40" class="d-md-inline-block align-top d-none" loading="lazy">
+                <a class="lead d-md-flex d-none" href="#">
                     Pasan Athuluwage
                 </a>
             </a>
@@ -49,15 +53,23 @@
 
 <section class="home" id="home">
     <div class="container">
-        <div class="row">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-6 d-sm-none d-flex align-items-center justify-content-center">
+                <img src="assets/images/my-head.png" alt="hero" class="img-fluid" height="">
+            </div>
             <div class="col-md-6 align-items-center">
                 <h1 class="text-sm-left mt-4" id="home">Dedicated IT undergraduate with a passion for excellence in technology.</h1>
-                <a href="contact.html" class="btn btn-primary mt-4">
+                <!-- <a href="contact.html" class="btn btn-primary mt-4">
                     Contact Me <i class="fas fa-arrow-right mx-1"></i>
-                </a>
+                </a> -->
+                <div class="btn-container mt-4">
+                    <button class="btn home-btn" id="btn-cv"> <a href="assets/pdf/Pasan Athuluwage-CV.pdf" download="pasan-athuluwage-cv" >Download CV</a> </button>
+                    <button class="btn home-btn ms-2" id="btn-contact" onclick="navigateToContacts()">Contact</button>
+                </div>
             </div>
             <div class="col-md-6 d-sm-flex d-none align-items-center justify-content-center">
-                <img src="assets/images/world.gif" alt="hero" class="img">
+                <!-- <img src="assets/images/world.gif" alt="hero" class="img"> -->
+                <img src="assets/images/my-head.png" alt="hero" class="img-fluid" height="">
                 <!-- <video controls autoplay loop muted>
                     <source src="assets/animi.gif" type="video/gif">
                 </video> -->
